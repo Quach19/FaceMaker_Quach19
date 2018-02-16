@@ -13,7 +13,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 /**
- *
  * This was tested on a Nexus 9 tablet with Android Studio version 2.3.3
  * This provides the listeners for the Face class
  *
@@ -64,7 +63,7 @@ public class FaceMaker extends AppCompatActivity implements View.OnClickListener
         blueSeek.setOnSeekBarChangeListener(this);
         faceRadio.setOnCheckedChangeListener(this);
         hairChange.setOnItemSelectedListener(this);
-        
+
         //update buttons and seekbar with new change
         updateFace();
 
